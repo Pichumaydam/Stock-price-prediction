@@ -21,3 +21,10 @@
 2023-08-03 14:53:16,093:INFO:executable: /Users/may/opt/miniconda3/envs/mlenv/bin/python
 2023-08-03 14:53:16,093:INFO:   machine: macOS-10.16-x86_64-i386-64bit
 2023-08-03 14:53:16,093:INFO:PyCaret required dependencies:
+2023-08-03 15:34:10,876:WARNING:/var/folders/jb/bxbmc2q970l2l1j4xlhcq9980000gn/T/ipykernel_66518/68737012.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  price['Close'] = scaler.fit_transform(price['Close'].values.reshape(-1,1))
+
