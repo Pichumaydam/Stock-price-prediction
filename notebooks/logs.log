@@ -1,0 +1,23 @@
+2023-08-03 14:53:13,365:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-08-03 14:53:16,091:INFO:PyCaret TSForecastingExperiment
+2023-08-03 14:53:16,091:INFO:Logging name: ts-default-name
+2023-08-03 14:53:16,091:INFO:ML Usecase: MLUsecase.TIME_SERIES
+2023-08-03 14:53:16,091:INFO:version 3.0.4
+2023-08-03 14:53:16,092:INFO:Initializing setup()
+2023-08-03 14:53:16,092:INFO:self.USI: 66c6
+2023-08-03 14:53:16,092:INFO:self._variable_keys: {'strictly_positive', 'seed', 'exogenous_present', 'data', 'approach_type', 'y_train', 'seasonality_present', 'primary_sp_to_use', 'y_train_transformed', 'memory', 'enforce_exogenous', 'enforce_pi', 'idx', 'log_plots_param', 'html_param', 'candidate_sps', 'y_test', '_available_plots', 'exp_id', 'y', 'significant_sps', 'n_jobs_param', 'index_type', 'fh', 'all_sps_to_use', 'y_test_transformed', 'fold_param', 'gpu_n_jobs_param', 'model_engines', 'X_transformed', 'X_train_transformed', 'fold_generator', 'X', '_ml_usecase', 'X_train', 'pipeline', 'gpu_param', 'y_transformed', 'logging_param', 'X_test', 'X_test_transformed', 'significant_sps_no_harmonics', 'USI', 'exp_name_log'}
+2023-08-03 14:53:16,092:INFO:Checking environment
+2023-08-03 14:53:16,092:INFO:python_version: 3.9.12
+2023-08-03 14:53:16,092:INFO:python_build: ('main', 'Jun  1 2022 06:36:29')
+2023-08-03 14:53:16,092:INFO:machine: x86_64
+2023-08-03 14:53:16,092:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2023-08-03 14:53:16,092:INFO:Memory: svmem(total=8589934592, available=1820168192, percent=78.8, used=5075132416, free=63963136, active=1758715904, inactive=1725980672, wired=3316416512)
+2023-08-03 14:53:16,092:INFO:Physical Core: 2
+2023-08-03 14:53:16,092:INFO:Logical Core: 4
+2023-08-03 14:53:16,093:INFO:Checking libraries
+2023-08-03 14:53:16,093:INFO:System:
+2023-08-03 14:53:16,093:INFO:    python: 3.9.12 (main, Jun  1 2022, 06:36:29)  [Clang 12.0.0 ]
+2023-08-03 14:53:16,093:INFO:executable: /Users/may/opt/miniconda3/envs/mlenv/bin/python
+2023-08-03 14:53:16,093:INFO:   machine: macOS-10.16-x86_64-i386-64bit
+2023-08-03 14:53:16,093:INFO:PyCaret required dependencies:
